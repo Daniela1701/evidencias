@@ -1,6 +1,5 @@
 package org.example;
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -214,7 +213,7 @@ public class Main {
 
         teclado.close();
     }*/
-    public static void main(String[] args){
+   /* public static void main(String[] args){
 
         Clase3 clase3 = new Clase3();
 
@@ -223,5 +222,41 @@ public class Main {
         //clase3.ejercicio3();
         //clase3.ejercicio4();
         //clase3.ejercicio5();
+    }*/
+//clase 09/07/2026----------------------------------------------
+    public static void main(String[] args) {
+        // Estudiantes est = new Estudiantes();
+        // est.setNombre("FRANCO");
+        // est.setNota(28.5);
+        // System.out.println("ESTUDIANTE "+est.getNombre()+ " | NOTA: "+est.getNota());
+        //  CuentaBancaria cuentaBancaria = new CuentaBancaria("CTA-0000",-300);
+        //System.out.println("saldo "+ cuentaBancaria.getSaldo());
+
+        //problema1
+        // Problema1 problema1 = new Problema1();
+        // problema1.convertirEdad();
+
+        //problema2
+        //  Problema2 problema2 = new Problema2();
+        //  problema2.cantidadProductos();
+
+        //Problema3
+
+        //Problema3 problema3 = new Problema3();
+        //  problema3.listaPaises();
+
+        //Problema4
+
+        // Problema4 problema4= new Problema4();
+        //  problema4.descuento();
+
+        //Problema5-Empleado
+
+        Empleado empleado = new Empleado();
+        empleado.setNombre("FRANCO");
+        empleado.setSalario(500);
+        System.out.println("NOMBRE: "+empleado.getNombre());
+        System.out.println("SALARIO: S/. "+empleado.getSalario());
+
     }
 }
