@@ -203,7 +203,7 @@ public class Main {
     }*/
 
     //cantidad de digitos 0
-    public static void main(String[]args){
+   /* public static void main(String[]args){
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Ingrese un número: ");
@@ -213,5 +213,15 @@ public class Main {
         ejercicios.ejercicio16(numero);
 
         teclado.close();
+    }*/
+    public static void main(String[] args){
+
+        Clase3 clase3 = new Clase3();
+
+        clase3.ejercicio1();
+        //clase3.ejercicio2();
+        //clase3.ejercicio3();
+        //clase3.ejercicio4();
+        //clase3.ejercicio5();
     }
 }
