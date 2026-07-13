@@ -224,7 +224,7 @@ public class Main {
         //clase3.ejercicio5();
     }*/
 //clase 09/07/2026----------------------------------------------
-    public static void main(String[] args) {
+   // public static void main(String[] args) {
         // Estudiantes est = new Estudiantes();
         // est.setNombre("FRANCO");
         // est.setNota(28.5);
@@ -252,11 +252,33 @@ public class Main {
 
         //Problema5-Empleado
 
-        Empleado empleado = new Empleado();
+       /* Empleado empleado = new Empleado();
         empleado.setNombre("FRANCO");
         empleado.setSalario(500);
         System.out.println("NOMBRE: "+empleado.getNombre());
         System.out.println("SALARIO: S/. "+empleado.getSalario());
 
-    }
+    }*/
+
+
+     public static void main(String[] args) {
+        // Try_catch tryCatch = new Try_catch();
+         //tryCatch.division();
+
+     //Arreglos arreglos = new Arreglos();
+    // arreglos.arreglo();
+     //    Try_catch tryCatch = new Try_catch();
+       //  tryCatch.edad();
+      //   Switch_case switchCase = new Switch_case();
+       //  switchCase.menu();
+      //   If_else ifElse = new If_else();
+        // ifElse.escuela();
+         Bucles bucles = new Bucles();
+        // bucles.numeros();
+       //  bucles.pares();
+        // bucles.tabla();
+         bucles.suma();
+
+
+     }
 }

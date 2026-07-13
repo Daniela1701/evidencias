@@ -76,4 +76,15 @@ public class Arreglos {
         System.out.println("RESPUESTA "+ result);
         System.out.println("POSICCION "+ proces);
     }
+
+    //practica
+    public void arreglo(){
+        String [] nombres = {"Ariana","Daniela","Sofia"};
+        System.out.println(nombres [0]);
+        System.out.println(nombres [1]);
+        System.out.println(nombres [2]);
+
+        System.out.println(nombres[3]);
+
+    }
 }

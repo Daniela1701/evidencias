@@ -56,4 +56,39 @@ public class Bucles {
         }
         System.out.println("resultado " + cont);
     }
+//ejercicios
+    public static void numeros(){
+
+        for (int i = 1; i <=10; i++){
+            System.out.println(i);
+        }
+
+    }
+
+    public static void pares (){
+        int numero = 1;
+        while(numero <= 20 ){
+            if (numero % 2 == 0){
+                System.out.println(numero);
+            }
+           numero++;
+        }
+
+    }
+    public static void tabla(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese un numeros: ");
+        int numero = sc.nextInt();
+
+        for (int i = 1; i <= 12; i++){
+            System.out.println(numero + "x" + i + "="+ (numero *i));
+        }
+    }
+    public static void suma (){
+        int suma = 0;
+        for (int i =1; i<= 100;i++){
+            suma = suma + i;
+        }
+        System.out.println("La suma es: " +suma);
+    }
 }
